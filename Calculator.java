@@ -25,7 +25,7 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.println("--- CLI CALCULATOR ---");
+            System.out.println("---- SIMPLE CLI CALCULATOR ----");
             System.out.print("Enter operation :- ( + , - , * , / ) or exit : ");
             String op = sc.next();
 
