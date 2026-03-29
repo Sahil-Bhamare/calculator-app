@@ -15,7 +15,7 @@ public class Calculator {
 
     public static double divide(double a, double b) {
         if (b == 0) {
-            System.out.println("Cannot divide by zero");
+            System.out.println("Cannot divide by zero, cannot define");
             return 0;
         }
         return a / b;
