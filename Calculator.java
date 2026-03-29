@@ -56,7 +56,7 @@ public class Calculator {
                     break;
 
                 default:
-                    System.out.println("Invalid operation");
+                    System.out.println("Invalid operation, Choose again.");
                     break;
             }
         }
