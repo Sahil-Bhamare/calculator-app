@@ -34,7 +34,7 @@ public class Calculator {
                 break;
             }
 
-            System.out.println("Enter two numbers:");
+            System.out.println("Enter two numbers:-");
             double a = sc.nextDouble();
             double b = sc.nextDouble();
 
@@ -60,5 +60,6 @@ public class Calculator {
                     break;
             }
         }
+        sc.close();
     }
 }
