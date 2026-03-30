@@ -1,3 +1,8 @@
+// Changes to be made :-
+// Separation of concern 
+// add exception handling
+
+
 import java.util.Scanner;
 
 public class Calculator {
