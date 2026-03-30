@@ -40,19 +40,19 @@ public class Calculator {
 
             switch (op) {
                 case "+":
-                    System.out.println(Calculator.add(a, b));
+                    System.out.println("Answer :- "+Calculator.add(a, b));
                     break;
 
                 case "-":
-                    System.out.println(Calculator.sub(a, b));
+                    System.out.println("Answer :- "+Calculator.sub(a, b));
                     break;
 
                 case "*":
-                    System.out.println(Calculator.multiply(a, b));
+                    System.out.println("Answer :- "+Calculator.multiply(a, b));
                     break;
 
                 case "/":
-                    System.out.println(Calculator.divide(a, b));
+                    System.out.println("Answer :- "+Calculator.divide(a, b));
                     break;
 
                 default:
