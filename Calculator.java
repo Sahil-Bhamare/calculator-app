@@ -30,7 +30,7 @@ public class Calculator {
             String op = sc.next();
 
             if(op.equalsIgnoreCase("exit")){
-                System.out.println("CLI Calculator Closed...");
+                System.out.println("---- CLI Calculator Closed ----");
                 break;
             }
 
