@@ -30,12 +30,15 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
+            System.out.println("");
+            System.out.println("-------------------------------");
             System.out.println("---- SIMPLE CLI CALCULATOR ----");
             System.out.print("Enter operation :- ( + , - , * , / ) or exit : ");
             String op = sc.next();
-
+            
             if(op.equalsIgnoreCase("exit")){
                 System.out.println("---- CLI Calculator Closed ----");
+                System.out.println("-------------------------------");
                 break;
             }
 
