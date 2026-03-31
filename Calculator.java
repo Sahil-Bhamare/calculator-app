@@ -1,7 +1,7 @@
 // Changes to be made :-
 // Separation of concern 
 // add exception handling
-
+// add enums for operations
 
 import java.util.Scanner;
 
