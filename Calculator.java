@@ -41,7 +41,7 @@ public class Calculator {
                 break;
             }
 
-            System.out.println("Enter two numbers for your operation:-");
+            System.out.println("Enter two numbers to perform the operation:-");
             double a = sc.nextDouble();
             double b = sc.nextDouble();
 
