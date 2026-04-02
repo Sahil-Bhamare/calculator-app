@@ -31,7 +31,7 @@ public class CalculatorView {
 
             } catch (Exception e) {
                 System.out.println("Error: " + e.getMessage());
-                sc.nextLine(); // clear buffer
+                sc.nextLine(); // to clear buffer
             }
         }
         sc.close();
