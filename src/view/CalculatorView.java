@@ -12,12 +12,13 @@ public class CalculatorView {
         while (true) {
             System.out.println("\n-------------------------------");
             System.out.println("---- SIMPLE CLI CALCULATOR ----");
-            System.out.print("Enter operation (+, -, *, /) or exit: ");
+            System.out.print("\nEnter operation (+, -, *, /) or exit: ");
 
             String op = sc.next();
 
             if (op.equalsIgnoreCase("exit")) {
-                System.out.println("---- CLI Calculator Closed ----");
+                System.out.println("\n---- CLI Calculator Closed ----");
+                System.out.println("-------------------------------");
                 break;
             }
 
