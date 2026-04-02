@@ -63,8 +63,8 @@ src/
 
 ### Run using Terminal
 
-javac -d out src/Main.java src/service/*.java src/controller/*.java src/view/*.java
-java -cp out Main
+- javac -d out src/Main.java src/service/*.java src/controller/*.java src/view/*.java
+- java -cp out Main
 
 ---
 
