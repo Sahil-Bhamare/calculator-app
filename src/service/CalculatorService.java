@@ -15,7 +15,7 @@ public class CalculatorService {
 
     public double divide(double a, double b) {
         if (b == 0) {
-            throw new ArithmeticException("Division by zero is undefined...");
+            throw new ArithmeticException("Division by zero is not defined ..");
         }
         return a / b;
     }
