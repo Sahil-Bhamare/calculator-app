@@ -19,4 +19,8 @@ public class CalculatorService {
         }
         return a / b;
     }
+
+    public double square(double a){
+        return a*a;
+    }
 }

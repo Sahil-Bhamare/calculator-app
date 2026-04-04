@@ -12,7 +12,7 @@ public class CalculatorView {
         while (true) {
             System.out.println("\n-------------------------------");
             System.out.println("---- SIMPLE CLI CALCULATOR ----");
-            System.out.print("\nEnter operation (+, -, *, /) or exit: ");
+            System.out.print("\nEnter operation (+, -, *, /, sq) or exit: ");
 
             String op = sc.next();
 
@@ -21,19 +21,28 @@ public class CalculatorView {
                 System.out.println("-------------------------------");
                 break;
             }
-
-            try {
-                System.out.println("Enter two numbers:");
+            if (op.equalsIgnoreCase("sq")){
+                System.out.println("Enter one number:");
                 double a = sc.nextDouble();
-                double b = sc.nextDouble();
-
+                double b = 0;
                 double result = controller.calculate(op, a, b);
                 System.out.println("Answer: " + result);
-
-            } catch (Exception e) {
-                System.out.println("Error: " + e.getMessage());
-                sc.nextLine(); // to clear buffer
+                
+            }else{
+                try {
+                    System.out.println("Enter two numbers:");
+                    double a = sc.nextDouble();
+                    double b = sc.nextDouble();
+    
+                    double result = controller.calculate(op, a, b);
+                    System.out.println("Answer: " + result);
+    
+                } catch (Exception e) {
+                    System.out.println("Error: " + e.getMessage());
+                    sc.nextLine(); // to clear buffer
+                }
             }
+
         }
         sc.close();
     }

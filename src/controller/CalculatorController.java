@@ -16,6 +16,8 @@ public class CalculatorController {
                 return service.multiply(a, b);
             case "/":
                 return service.divide(a, b);
+            case "sq":
+                return service.square(a);
             default:
                 throw new IllegalArgumentException("Invalid operation");
         }
