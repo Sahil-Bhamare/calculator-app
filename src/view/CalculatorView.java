@@ -24,7 +24,7 @@ public class CalculatorView {
             if (op.equalsIgnoreCase("sq")){
                 System.out.println("Enter one number:");
                 double a = sc.nextDouble();
-                double b = 0;
+                double b = 0; //since square requires only one input
                 double result = controller.calculate(op, a, b);
                 System.out.println("Answer: " + result);
                 
