@@ -12,7 +12,7 @@ public class CalculatorView {
         while (true) {
             System.out.println("\n-------------------------------");
             System.out.println("---- SIMPLE CLI CALCULATOR ----");
-            System.out.print("\nEnter operation (+, -, *, /, sq) or exit: ");
+            System.out.print("\nEnter operation (+, -, *, /, sq, c) or exit: ");
 
             String op = sc.next();
 
@@ -27,7 +27,13 @@ public class CalculatorView {
                 double b = 0; //since square requires only one input
                 double result = controller.calculate(op, a, b);
                 System.out.println("Answer: " + result);
-                
+            }
+            else if (op.equalsIgnoreCase("c")){
+                System.out.println("Enter one number:");
+                double a = sc.nextDouble();
+                double b = 0; //since square requires only one input
+                double result = controller.calculate(op, a, b);
+                System.out.println("Answer: " + result);
             }else{
                 try {
                     System.out.println("Enter two numbers:");
