@@ -11,7 +11,7 @@ The application supports basic arithmetic operations and handles invalid input a
 
 ## Features
 
-* Addition, subtraction, multiplication, division
+* Addition, subtraction, multiplication, division , square , cube 
 * Exception handling for invalid operations
 * Continuous input loop (until user exits)
 * Clean separation of logic into layers
