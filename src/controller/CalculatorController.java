@@ -18,6 +18,8 @@ public class CalculatorController {
                 return service.divide(a, b);
             case "sq":
                 return service.square(a); // adding enum solves the uniformity problem (unary vs binary)
+            case "c":
+                return service.cube(a); // adding enum solves the uniformity problem (unary vs binary)
             default:
                 throw new IllegalArgumentException("Invalid operation");
         }
